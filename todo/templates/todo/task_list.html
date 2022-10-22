@@ -11,16 +11,18 @@
     <tr>
         <th>Task</th>
         <th></th>
+        <th></th>
     </tr>
     {% for task in tasks %}
-        <tr>
-            <td>{{ task.title }}</td>
-            <td><a href="{% url 'task' task.id %}">View</a></td>
-        </tr>
+    <tr>
+        <td>{{ task.title }}</td>
+        <td><a href="{% url 'task' task.id %}">View</a></td>
+        <td><a href="{% url 'task-update' task.id %}">Edit</a></td>
+    </tr>
     {% empty %}
-        <tr>
-            <h3>No tasks yet!</h3>
-        </tr>
+    <tr>
+        <h3>No tasks yet!</h3>
+    </tr>
     {% endfor %}
 </table>
 </body>
