@@ -27,7 +27,6 @@ class RegisterPage(FormView):
     success_url = reverse_lazy('tasks')
 
 
-
 class TaskList(LoginRequiredMixin, ListView):
     model = Task
     context_object_name = 'tasks'
