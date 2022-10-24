@@ -13,15 +13,15 @@ To Do list app with User Registration, Login, Search and full Create Read Update
 # Home page
 * Home page view with out tasks:
 
-![Screenshot](todoscreens/main.png)
+![Screenshot](todoscreens/main1.png)
 
 * You can add tasks by filling in the form:
 
-![Screenshot](todoscreens/main1.png)
+![Screenshot](todoscreens/main2.png)
 
 * Home page with task:
 
-![Screenshot](todoscreens/main2.png)
+![Screenshot](todoscreens/main3.png)
 
 * When you finish the task you can click on the task and mark it as finished:
 
@@ -30,7 +30,7 @@ To Do list app with User Registration, Login, Search and full Create Read Update
 * You can filter the tasks by entering a search phrase in the search bar:
 Home page before adding filter:
 
-![Screenshot](todoscreens/main3.png)
+![Screenshot](todoscreens/main4.png)
 
 After typing the phrase in the search bar
 
