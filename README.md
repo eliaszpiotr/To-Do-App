@@ -11,7 +11,7 @@ To Do list app with User Registration, Login, Search and full Create Read Update
 ![Screenshot](todoscreens/register.png)
 
 # Home page
-* Home page view with out tasks:
+* Home page view with out tasks. At the top, we also have a counter of tasks still to be performed:
 
 ![Screenshot](todoscreens/main1.png)
 
